@@ -1,0 +1,128 @@
+Initial Courses
+****************************************** Courses ******************************************
+Course ID      Room Number    Days           Times          Seats Fees  
+ART2113.001    AR4.01         TR             11:30-12:45pm  10    $45.00
+ART3023.001    AR4.04         MWF            12:00-1:50pm   7     $35.00
+CS1713.002     NPB1.202       MWF            1:00-1:50pm    0     $50.00
+ENG1023.001    MS1.02.07      MWF            10:00-10:50am  15    $35.00
+GEO1013.005    MB1.101        TR             12:30-1:45pm   5     $35.00
+HIS1043.002    MH2.102        MWF            1:00-1:50pm    120   $35.00
+MAT1214.003    MS1.02.03      TR             2:00-3:15pm    1     $35.00
+MAT3013.001    MS1.02.07      TR             2:00-3:15pm    1     $35.00
+
+COURSE TPRINT
+ └── HIS1043.002
+     ├── MAT1214.003
+     │    └── MAT3013.001
+     └── CS1713.002
+         ├── GEO1013.005
+         │    └── ENG1023.001
+         └── ART2113.001
+             └── ART3023.001
+
+STUDENT BEGIN pte357 M 1986/01/01 Pete Moss
+pte357 Pete Moss (M 1986/01/01)
+STUDENT INFO CS,pte357@my.uni.edu,3.20,N
+CS pte357@my.uni.edu INTL:N GPA:3.20
+STUDENT REGISTER HIS1043.002    
+$35.00
+STUDENT REGISTER GEO1013.005
+$35.00
+STUDENT REGISTER MAT1214.003
+$35.00
+STUDENT REGISTER CS1713.002
+$50.00	not enough available seats to satisfy request 
+STUDENT COMPLETE
+Total fees: $105.00
+
+STUDENT BEGIN agt352 M 1957/02/02 Pop Corn
+agt352 Pop Corn (M 1957/02/02)
+STUDENT INFO MAT,agt352@my.uni.edu,2.8,N
+MAT agt352@my.uni.edu INTL:N GPA:2.80
+STUDENT REGISTER HIS1043.002
+$35.00
+STUDENT REGISTER ENG1023.003
+course ID not found 
+STUDENT REGISTER ART3023.001
+$35.00
+STUDENT COMPLETE
+Total fees: $70.00
+
+COURSE INCREASE MAT1214.003 15
+
+COURSE SHOW MAT1214.003
+MAT1214.003    MS1.02.03      TR             2:00-3:15pm    15    $35.00
+
+STUDENT BEGIN geh582 F 1958/03/03 Penny Loafer
+geh582 Penny Loafer (F 1958/03/03)
+STUDENT INFO CS,pennyl@xyz.net,3.5,N
+CS pennyl@xyz.net INTL:N GPA:3.50
+STUDENT REGISTER MAT1214.003
+$35.00
+STUDENT REGISTER CS1713.002
+$50.00	not enough available seats to satisfy request 
+STUDENT COMPLETE
+Total fees: $35.00
+
+STUDENT BEGIN sen233 M 1979/04/04 Adam Sandler
+sen233 Adam Sandler (M 1979/04/04)
+STUDENT INFO ENG,hgilmore@xyz.net,2.93,Y
+ENG hgilmore@xyz.net INTL:Y GPA:2.93
+STUDENT REGISTER ENG1023.001
+$35.00
+STUDENT REGISTER GEO1013.005
+$35.00
+STUDENT REGISTER MAT3013.001
+$35.00
+STUDENT COMPLETE
+Total fees: $105.00
+
+COURSE SHOW MAT3013.001
+MAT3013.001    MS1.02.07      TR             2:00-3:15pm    0     $35.00
+
+STUDENT BEGIN fse234 F 1989/05/05 Melba Toast
+fse234 Melba Toast (F 1989/05/05)
+STUDENT INFO BIO,butter@xyz.net,2.03,N
+BIO butter@xyz.net INTL:N GPA:2.03
+STUDENT REGISTER CS1713.002
+$50.00	not enough available seats to satisfy request 
+STUDENT REGISTER ENG1023.001
+$35.00
+STUDENT COMPLETE
+Total fees: $35.00
+
+COURSE INCREASE HIS1043.004 10
+course ID not found 
+
+COURSE SHOW HIS1043.004
+course ID not found 
+
+COURSE SHOW CS1713.002
+CS1713.002     NPB1.202       MWF            1:00-1:50pm    0     $50.00
+
+COURSE SHOW ART2113.001
+ART2113.001    AR4.01         TR             11:30-12:45pm  10    $45.00
+
+STUDENT BEGIN bob420 M 1942/08/29 Bob Ross
+bob420 Bob Ross (M 1942/08/29)
+STUDENT INFO ART,happylittlecloud@yourworld.net,4.0,N
+ART happylittlecloud@yourworld.net INTL:N GPA:4.00
+STUDENT REGISTER ART2113.001
+$45.00
+STUDENT REGISTER ART3023.001
+$35.00
+STUDENT COMPLETETotal fees: $80.00
+
+Resulting Courses
+****************************************** Courses ******************************************
+Course ID      Room Number    Days           Times          Seats Fees  
+ART2113.001    AR4.01         TR             11:30-12:45pm  9     $45.00
+ART3023.001    AR4.04         MWF            12:00-1:50pm   5     $35.00
+CS1713.002     NPB1.202       MWF            1:00-1:50pm    0     $50.00
+ENG1023.001    MS1.02.07      MWF            10:00-10:50am  13    $35.00
+GEO1013.005    MB1.101        TR             12:30-1:45pm   3     $35.00
+HIS1043.002    MH2.102        MWF            1:00-1:50pm    118   $35.00
+MAT1214.003    MS1.02.03      TR             2:00-3:15pm    14    $35.00
+MAT3013.001    MS1.02.07      TR             2:00-3:15pm    0     $35.00
+
+
